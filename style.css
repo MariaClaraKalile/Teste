@@ -1,0 +1,59 @@
+.container{
+    text-align: center;
+    align-items: center;
+    top: 20%;
+    position: absolute;
+    left: 30%;
+    border-radius: 20px;
+    background-color: rgb(247, 181, 216);
+    padding: 5%;
+}
+
+
+h1{ color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-style: italic;
+
+}
+
+a {
+    text-decoration: none;
+    color: deeppink;
+}
+
+body {
+    background-color: rgb(233, 86, 172);
+}
+
+.button1, .button2{
+    font-size: 30px;
+    font-style: italic;
+    background-color: rgb(255, 255, 255); color: deeppink;
+    margin: 0 0.5em;
+}
+
+.button2:hover {
+    transition: 1s all;
+    transform: scale(1.5);
+}
+
+.button1:hover {
+    transition: 1s all;
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        position: inherit;
+        text-align: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        margin: 10%;
+    }
+
+    body {
+        height: 100vh;
+    }
+    
+} 
